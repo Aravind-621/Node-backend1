@@ -1,4 +1,7 @@
 console.log("My Node.js project");
-console.log("Learning Git and GitHub");
-console.log("My first Git commit is complete");
-console.log("my name is Aravind");
+function greet(a,b){
+    const result=a+b;
+    console.log(result)
+    console.log("welcome to nodejs project ",a,"-",b);
+}
+greet(13,10);
